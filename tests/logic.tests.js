@@ -11,13 +11,13 @@ testRunner.runTests({
       },
       {
         testDescription:
-          "removeSpaces should remove any spaces from the start of the string, test 3",
+          "removeSpaces should remove any spaces from the start of the string, test 2",
         evaluationString: 'removeSpaces(" laura")',
         expectedValue: "laura",
       },
       {
         testDescription:
-          "removeSpaces should remove any spaces from the start of the string, test 2",
+          "removeSpaces should remove any spaces from the start of the string, test 3",
         evaluationString: 'removeSpaces("  AnnieCannons")',
         expectedValue: "AnnieCannons",
       },
