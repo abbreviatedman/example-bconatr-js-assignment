@@ -1,3 +1,3 @@
 * Example bconatr.js Assignment
 
-An example assignment using the [https://github.com/abbreviatedman/bconatr-js][bconatr.js] library.
+An example assignment using the [[https://github.com/abbreviatedman/bconatr-js][bconatr.js]] library.
