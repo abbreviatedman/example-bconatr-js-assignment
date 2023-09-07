@@ -1,7 +1,8 @@
 const testRunner = new Bconatr();
 
-testRunner.runTests({
-  removeSpaces: {
+testRunner.runTests([
+  {
+    suiteName: "removeSpaces",
     tests: [
       {
         testDescription:
@@ -48,7 +49,8 @@ testRunner.runTests({
     ],
   },
 
-  getMeasurement: {
+  {
+    suiteName: "getMeasurement",
     tests: [
       {
         testDescription: "getMeasurement should return the measurement, test 1",
@@ -99,7 +101,8 @@ testRunner.runTests({
     ],
   },
 
-  getDegrees: {
+  {
+    suiteName: "getDegrees",
     tests: [
       {
         testDescription: "getDegrees should return the degrees, test 1",
@@ -150,7 +153,8 @@ testRunner.runTests({
     ],
   },
 
-  convertCToF: {
+  {
+    suiteName: "convertCToF",
     tests: [
       {
         testDescription:
@@ -177,7 +181,8 @@ testRunner.runTests({
     ],
   },
 
-  convertFToC: {
+  {
+    suiteName: "convertFToC",
     tests: [
       {
         testDescription:
@@ -204,7 +209,8 @@ testRunner.runTests({
     ],
   },
 
-  convertTemp: {
+  {
+    suiteName: "convertTemp",
     tests: [
       {
         testDescription:
@@ -295,4 +301,4 @@ testRunner.runTests({
       },
     ],
   },
-});
+]);
