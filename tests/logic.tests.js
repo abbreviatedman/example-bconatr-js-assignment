@@ -1,3 +1,6 @@
+// @ts-check
+
+/** @type Bconatr */
 const testRunner = new Bconatr();
 
 testRunner.runTests([
