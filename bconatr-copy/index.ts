@@ -1,6 +1,6 @@
 import type {Test, TestResult, TestSuite, SuiteResult, MessagePrinter, BconatrI} from './bconatr'
 
-// @ts-ignore
+// @ts-ignore: 'Bconatr' is declared but never used.
 class Bconatr implements BconatrI {
   #passingTests = 0;
   #failingTests = 0;
